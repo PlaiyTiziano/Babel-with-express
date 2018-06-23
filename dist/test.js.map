@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/test.js"],"names":["test","console","log","value","module","exports"],"mappings":";;AAAA,IAAMA,OAAO,SAAPA,IAAO;AAAA,SAASC,QAAQC,GAAR,CAAYC,KAAZ,CAAT;AAAA,CAAb;;AAEAC,OAAOC,OAAP,GAAiB,EAAEL,UAAF,EAAjB","file":"test.js","sourcesContent":["const test = value => console.log(value);\n\nmodule.exports = { test };"]}

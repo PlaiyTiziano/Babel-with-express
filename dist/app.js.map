@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/app.js"],"names":[],"mappings":";;AAAA;;AACA;;AAEA,gBAAK,aAAL","file":"app.js","sourcesContent":["import { test } from './test';\nimport './Express/express';\n\ntest(\"Hello world\");"]}
