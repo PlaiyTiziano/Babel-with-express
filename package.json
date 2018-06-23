@@ -1,0 +1,20 @@
+{
+  "name": "node-babel-test",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon bin/dev",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && mkdir dist && babel src -s -d dist",
+    "production": "npm run build && node bin/production"
+  },
+  "author": "Tizinano Plaiy",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
+}
